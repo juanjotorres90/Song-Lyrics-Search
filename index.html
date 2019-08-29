@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lyrics Search</title>
+    <meta name="description" content="Simple Lyrics search engine" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+        integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <h1>Song Lyrics Search</h1>
+
+        <div class="container">
+            <div id="search" class="search">
+
+                <form action="#" id="search-form">
+                    <div class="input text">
+                        <label for="artist">Artist<span>&nbsp;*</span></label>
+                        <input type="text" id="artist" placeholder="e.g. Eminem">
+                    </div>
+                    <div class="input text">
+                        <label for="song">Song<span>&nbsp;*</span></label>
+                        <input type="text" id="song" placeholder="e.g. Superman">
+                    </div>
+
+                    <div class="input send" id="testbutton">
+                        <input type="submit" value="Search">
+                    </div>
+
+                </form>
+                <p class="mandatory"><span> * </span>Both inputs are required</p>
+            </div>
+            <div class="lyric">
+                <div id="messages"></div>
+                <h2 class="artist-name"></h2>
+                <h2 class="song-name"></h2>
+
+
+                <div id="result"></div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/webdevjuanjo" target="_blank" title="Facebook"><i
+                class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/juanjocodes" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/juanjo.codes/" target="_blank" title="Instagram"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/juanjotorreslopez/" target="_blank" title="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/juanjotorres90" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+
+        <p><span><i class="far fa-copyright"></i></span> 2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                href="https://juanjotorres.net/" target="_blank" title="Personal website"><strong>Juan
+                    José Torres</strong></a></p>
+
+    </footer>
+
+    <a href="#top"><button class="gototop"></button></a>
+
+</body>
+
+</html>
